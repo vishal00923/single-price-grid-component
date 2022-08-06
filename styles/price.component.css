@@ -104,6 +104,13 @@ body {
   font-weight: 700;
   font-size: 15px;
   box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.sign-up-btn:hover {
+  color: rgb(242, 243, 244);
+  background: hsl(71, 74%, 45%);
 }
 
 .whyus-text {
