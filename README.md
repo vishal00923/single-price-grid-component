@@ -1,9 +1,11 @@
 # Single Price Grid Component
 
-# Created by
+Frontend Mentor Challenge
 
-Vishal Chaurasia
-
-# Made with
+## Made with
 
 HTML and CSS
+
+## Source
+
+Frontend Mentor
