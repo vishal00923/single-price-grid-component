@@ -1,0 +1,148 @@
+/* ==================== Google Font ================= */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  line-height: 1.6;
+  background: hsl(204, 43%, 93%);
+  overflow: hidden;
+}
+
+.component-container {
+  width: 650px;
+  margin: 12% auto;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+  border-radius: 8px;
+}
+
+.details-container {
+  background: hsl(0, 0%, 100%);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.details-container,
+.price-box {
+  padding: 28px 35px;
+}
+
+.component-heading {
+  font-size: 24px;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 20px;
+}
+
+.component-subheading {
+  color: hsl(61, 69%, 54%);
+  margin-bottom: 12px;
+}
+
+.description {
+  color: #b4b4b4;
+  line-height: 1.8;
+  margin-bottom: 12px;
+  word-spacing: 1.5px;
+}
+
+.price-container {
+  display: flex;
+  border-radius: inherit;
+}
+
+.text-color {
+  color: rgb(255, 255, 255);
+}
+
+.price-tag {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.heading {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.price-box {
+  width: 100%;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pm {
+  color: hsl(180, 44%, 70%);
+}
+
+.left {
+  background: hsl(179, 60%, 44%);
+  border-bottom-left-radius: inherit;
+}
+
+.right {
+  background: hsl(179, 62%, 45%);
+  border-bottom-right-radius: inherit;
+}
+
+.sign-up-btn {
+  width: 100%;
+  border: none;
+  text-align: center;
+  padding: 15px 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 15px;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+}
+
+.whyus-text {
+  font-size: 14px;
+  color: rgb(242, 243, 244);
+}
+
+/* ==================== Media Query ================= */
+@media screen and (max-width: 500px) {
+  .component-container {
+    width: 312px;
+  }
+
+  .details-container,
+  .price-box {
+    padding: 20px 30px;
+  }
+
+  .component-heading {
+    font-size: 18px;
+  }
+
+  .component-subheading {
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .left {
+    border-bottom-left-radius: 0;
+  }
+
+  .right {
+    border-bottom-left-radius: 8px;
+  }
+
+  .price-container {
+    flex-direction: column;
+  }
+}
