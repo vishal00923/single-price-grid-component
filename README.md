@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vishal00923/single-price-grid-component)
-- Live Site URL: [Add live site URL here](https://single-grid-component-vishal00923.netlify.app/)
+- Solution URL: (https://github.com/vishal00923/single-price-grid-component)
+- Live Site URL: (https://single-grid-component-vishal00923.netlify.app/)
 
 ## My process
 
